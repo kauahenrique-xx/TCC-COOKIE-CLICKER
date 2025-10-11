@@ -3,32 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cookie Play</title>
 </head>
 <body>
 <h2>Cookie Clicker Game</h2>
-<p>Score: <span id="score">0</span></p>
-<div id="cookie"></div>
-<br><br>
-<button id="reset-button">Reset Score</button>
 
-<script>
-let score = 0;
+    <div id="cookie">
 
-const cookie = document.getElementById('cookie');
-const scoreDisplay = document.getElementById('score');
-const resetButton = document.getElementById('reset-button');
-
-cookie.addEventListener('click', () => {
-score++;
-scoreDisplay.textContent = score;
-});
-
-resetButton.addEventListener('click', () => {
-score = 0;
-scoreDisplay.textContent = score;
-});
-</script>
-
-</body>
+    </div>
+    </body>
 </html>
