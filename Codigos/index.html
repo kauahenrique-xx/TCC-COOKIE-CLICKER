@@ -6,6 +6,29 @@
     <title>Document</title>
 </head>
 <body>
-    oioioi
+<h2>Cookie Clicker Game</h2>
+<p>Score: <span id="score">0</span></p>
+<div id="cookie"></div>
+<br><br>
+<button id="reset-button">Reset Score</button>
+
+<script>
+let score = 0;
+
+const cookie = document.getElementById('cookie');
+const scoreDisplay = document.getElementById('score');
+const resetButton = document.getElementById('reset-button');
+
+cookie.addEventListener('click', () => {
+score++;
+scoreDisplay.textContent = score;
+});
+
+resetButton.addEventListener('click', () => {
+score = 0;
+scoreDisplay.textContent = score;
+});
+</script>
+
 </body>
 </html>
