@@ -4,35 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookie Play</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h2>Cookie Clicker Game</h2>
-    <div><img src="cookie.png" alt="Cookie Image" width="200"></div>
-    <p id="score">Score: 0</p>
-    <button id="reset">Reset</button>
+    <h1>Cookie Play</h1>
+    <div class="cokie">
+        <img src="cookie.png" alt="">
+    </div>
+    <div class="opcoes">
 
-    <script>
-        let score = 0;
-        const scoreDisplay = document.getElementById('score');
-        const resetButton = document.getElementById('reset');
-        const cookieButton = document.createElement('button');
-        cookieButton.img = document.createElement('img');
-        cookieButton.img.src = 'cookie.png';
-        cookieButton.img.alt = 'Cookie Image';
-        cookieButton.img.width = 200;
-        cookieButton.appendChild(cookieButton.img);
-        document.body.appendChild(cookieButton);
-        
+    </div>
+    <div class="loja">
 
-        cookieButton.addEventListener('click', () => {
-            score++;
-            scoreDisplay.textContent = `Score: ${score}`;
-        });
+    </div>
+    <div class="estatisticas">
 
-        resetButton.addEventListener('click', () => {
-            score = 0;
-            scoreDisplay.textContent = `Score: ${score}`;
-        });
-    </script>
-    </body>>
+    </div>
+    
+    </body>
 </html>
