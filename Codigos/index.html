@@ -7,9 +7,32 @@
 </head>
 <body>
 <h2>Cookie Clicker Game</h2>
+    <div><img src="cookie.png" alt="Cookie Image" width="200"></div>
+    <p id="score">Score: 0</p>
+    <button id="reset">Reset</button>
 
-    <div id="cookie">
+    <script>
+        let score = 0;
+        const scoreDisplay = document.getElementById('score');
+        const resetButton = document.getElementById('reset');
+        const cookieButton = document.createElement('button');
+        cookieButton.img = document.createElement('img');
+        cookieButton.img.src = 'cookie.png';
+        cookieButton.img.alt = 'Cookie Image';
+        cookieButton.img.width = 200;
+        cookieButton.appendChild(cookieButton.img);
+        document.body.appendChild(cookieButton);
+        
 
-    </div>
-    </body>
+        cookieButton.addEventListener('click', () => {
+            score++;
+            scoreDisplay.textContent = `Score: ${score}`;
+        });
+
+        resetButton.addEventListener('click', () => {
+            score = 0;
+            scoreDisplay.textContent = `Score: ${score}`;
+        });
+    </script>
+    </body>>
 </html>
