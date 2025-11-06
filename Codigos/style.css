@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 html, body {
-    margin: 0px;
-    padding: 0px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background-image: url('../Imagens/Fundo.png');
+  background-size: cover;  /* cobre toda a tela */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }
@@ -21,5 +30,52 @@ h1 {
 .cokie {
     display: flex;
     padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: center;
+}
+.cokie img {
+  width: 200px;
+  height: 200px;
+  
+}
+
+.barraDivisoria img {
+    width: 100%;
+    padding-top: 0px;
+    box-shadow: 0px 0px 10px 5px;
+}
+#lojaNome {
+    display: flex;
+    justify-content: center;
+}
+.loja {
+}
+.loja  .itens {
+    display: flex;
+    padding: 5px;
+}
+.loja .itens div {
+    padding: 5px;
+}
+.loja .itens div p {
+    margin-top: 0px;
+}
+.loja .itens div p, button {
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
+.loja .itens div button {
+    width: 100px;
+    
+    margin-left: 20px;
+    margin-right: 85px;
+}
+
+.loja .itens .item-clicker {
+    display: flex;
+    align-items: center;
+    background-image: url('../Imagens/botoes/Cursor.png');
+    background-size: 429.37px 110.2px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px;
 }

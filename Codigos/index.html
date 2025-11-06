@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
-<body background="../Imagens/Fundo.png">
+<body>
     <h1>Cookie Play</h1>
 
     <div class="contagem" ">
@@ -19,22 +19,24 @@
     <div class="cokie" onclick="clique()">
         <img src="../Imagens/cookierecortado-removebg-preview.png" alt="">
     </div>
+    <div class="barraDivisoria">
+        <img src="../Imagens/barralateral.png" alt="">
+    </div>
     <div class="opcoes">
 
     </div>
 
+    <h2 id="lojaNome">Loja</h2>
     <div class="loja">
-        <h2>Loja</h2>
         <div class="itens">
-            <div class="item-clicker-1">
+            <div class="item-clicker">
                 <p>clicker+1</p>
-                <button onclick="comprarUpgrade(+1)">Comprar</button>
-                <span class="preco">5 cookies</span>
+                <button onclick="comprarUpgrade(+1)">5 cokies</button>
             </div>
             <div class="item-vovo">
                 <p>vovó+1</p>
                 <button onclick="comprarUpgrade(+2)">Comprar</button>
-                <span class="preco">10 cookies</span>
+                <p>10 cookies</p>
             </div>
             <div class="item-fabrica">
                 <p>fábrica+1</p>

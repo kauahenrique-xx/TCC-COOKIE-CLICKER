@@ -2,6 +2,12 @@
 let valorAtual = 0;
 let valorDoClique = 1;
 
+var clicker = 0.1;
+
+
+
+
+
 // Funções
 function clique() {
     valorAtual = valorAtual + valorDoClique;
@@ -9,5 +15,12 @@ function clique() {
                                                                     // clique
 }
 
-
+function buffs() {
     
+}
+    
+
+
+
+
+
