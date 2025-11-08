@@ -169,7 +169,9 @@ h1 {
     padding: 5px;
     
 }
-
+.loja .itens-2 .item-magico {
+    width: 426px;
+}
 .loja .itens .item-fabrica {
     padding-right: 0px;
 }
