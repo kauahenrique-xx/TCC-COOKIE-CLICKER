@@ -32,7 +32,11 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     justify-content: center;
+    flex-direction:row;
+    align-items: center;
+    
 }
+
 .cokie img {
   width: 200px;
   height: 200px;
@@ -83,6 +87,7 @@ h1 {
     background-size: 429.37px 110.2px;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 15px;
+    
 }
 
 .loja .itens .item-vovo {
@@ -278,4 +283,9 @@ h1 {
     background-repeat: no-repeat;
     box-shadow: 0px 0px 15px;
     padding-right: 0px;
+}
+
+#erro {
+    display: flex;
+    justify-content: center;
 }
