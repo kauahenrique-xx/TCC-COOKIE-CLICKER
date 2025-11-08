@@ -9,7 +9,7 @@ body {
   background-image: url('../Imagens/Fundo.png');
   background-size: cover;  /* cobre toda a tela */
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat:repeat-x/
 }
 
 body {
@@ -49,12 +49,17 @@ h1 {
     justify-content: center;
 }
 .loja {
+  display: grid;
+  place-items: center;
 }
+
 .loja  .itens {
     display: flex;
     padding: 5px;
 }
 .loja .itens div {
+    width: 429.37px;
+    height: 100.2px;
     padding: 5px;
 }
 .loja .itens div p {
@@ -68,7 +73,7 @@ h1 {
     width: 100px;
     
     margin-left: 20px;
-    margin-right: 85px;
+    margin-right: 65px;
 }
 
 .loja .itens .item-clicker {
@@ -78,4 +83,197 @@ h1 {
     background-size: 429.37px 110.2px;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 15px;
+}
+
+.loja .itens .item-vovo {
+    display: flex;
+    align-items: center;
+    background-image: url('../Imagens/botoes//Vovó.png');
+    background-size: 429.37px 110.2px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px;
+}
+
+.loja .itens .item-fabrica {
+    display: flex;
+    align-items: center;
+    background-image: url('../Imagens/botoes/Fábrica.png');
+    background-size: 429.37px 110.2px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px;
+}
+.loja .itens .item-fabrica {
+    width: 422.37px;
+    height: 100.2px;
+    padding: 5px;
+}
+
+.loja  .itens-2 {
+    display: flex;
+    padding: 5px;
+}
+.loja .itens-2 div {
+    padding: 5px;
+}
+.loja .itens-2 div p {
+    margin-top: 0px;
+}
+.loja .itens-2 div p, button {
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
+.loja .itens-2 div button {
+    width: 100px;
+    
+    margin-left: 20px;
+    margin-right: 85px;
+}
+
+.loja .itens-2 .item-magico {
+    display: flex;
+    align-items: center;
+    background-image: url('../Imagens/botoes/Torre\ de\ Bruxos.png');
+    background-size: 429.37px 110.2px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px;
+}
+
+.loja .itens-2 .item-laboratorio {
+    display: flex;
+    align-items: center;
+    background-image: url('../Imagens/botoes/Laborátorio\ de\ Alquimia.png');
+    background-size: 429.37px 110.2px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px;
+}
+
+.loja .itens-2 .item-gerador {
+    display: flex;
+    align-items: center;
+    background-image: url('../Imagens/botoes/Condensador\ de\ Antimáteria.png');
+    background-size: 429.37px 110.2px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px;
+}
+
+.loja .itens-2 .item-gerador {
+    width: 422.37px;
+    height: 100.2px;
+    padding: 5px;
+    padding-right: 0px;
+}
+
+.loja .itens-2 .item-laboratorio {
+    width: 429.37px;
+    height: 100.2px;
+    padding: 5px;
+    
+}
+
+.loja .itens .item-fabrica {
+    padding-right: 0px;
+}
+
+.loja  .itens-3 {
+    display: flex;
+    padding: 5px;
+}
+.loja .itens-3 div {
+    width: 429.37px;
+    height: 100.2px;
+    padding: 5px;
+}
+.loja .itens-3 div p {
+    margin-top: 0px;
+}
+.loja .itens-3 div p, button {
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
+.loja .itens-3 div button {
+    width: 100px;
+    
+    margin-left: 20px;
+    margin-right: 65px;
+}
+
+.loja .itens-3 .item-nave {
+    display: flex;
+    align-items: center;
+    background-image: url('../Imagens/botoes/Máquina\ do\ Tempo.png');
+    background-size: 429.37px 110.2px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px;
+}
+
+.loja .itens-3 .item-estacao {
+    display: flex;
+    align-items: center;
+    background-image: url('../Imagens/botoes/Templo.png');
+    background-size: 429.37px 110.2px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px;
+}
+
+.loja .itens-3 .item-buraco-negro {
+    display: flex;
+    align-items: center;
+    background-image: url('../Imagens/botoes/OcioVerso.png');
+    background-size: 429.37px 110.2px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px;
+}
+
+.loja .itens-3 .item-nave {
+    width: 414.37px;
+    height: 100.2px;
+    padding: 5px;
+    padding-right: 19px;
+}
+
+.loja .itens-3 .item-estacao {
+    width: 422.37px;
+    height: 100.2px;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.loja .itens-3 .item-buraco-negro {
+    width: 422.37px;
+    height: 100.2px;
+    padding: 5px;
+    padding-right: 0px;
+}
+
+.loja  .itens-4 {
+    display: flex;
+    padding: 5px;
+}
+.loja .itens-4 div {
+    width: 429.37px;
+    height: 100.2px;
+    padding: 5px;
+}
+.loja .itens-4 div p {
+    margin-top: 0px;
+}
+.loja .itens-4 div p, button {
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
+.loja .itens-4 div button {
+    width: 100px;
+    
+    margin-left: 20px;
+    margin-right: 65px;
+}
+
+.loja .itens-4 .item-universo-paralelo {
+    display: flex;
+    align-items: center;
+    background-image: url('../Imagens/botoes/Prisma.png');
+    background-size: 429.37px 110.2px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px;
+    padding-right: 0px;
 }
