@@ -289,3 +289,50 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+.item-clicker:hover {
+    filter: brightness(80%);
+}
+
+.item-buraco-negro:hover {
+    filter: brightness(80%);
+}
+
+.item-estacao:hover {
+    filter: brightness(80%);
+}
+
+.item-fabrica:hover {
+    filter: brightness(80%);
+}
+
+.item-magico:hover {
+    filter: brightness(80%);
+}
+
+.item-universo-paralelo:hover {
+    filter: brightness(80%);
+}
+
+.item-gerador:hover {
+    filter: brightness(80%);
+}
+
+.item-vovo:hover {
+    filter: brightness(80%);
+}
+
+.item-nave:hover {
+    filter: brightness(80%);
+}
+
+.item-nave:hover {
+    filter: brightness(80%);
+}
+
+#erro {
+    font-size: 200%;
+    font-weight: 1000;
+    color: rgb(121, 0, 0);
+    
+}
